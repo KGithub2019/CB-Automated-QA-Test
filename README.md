@@ -16,6 +16,14 @@ Website: http://deckofcardsapi.com/
 1. Write a simple automated test framework in the language / IDE of your choice to test the scenario below
 2. Clear reporting of the test results
 
+# Scenario:
+
+Scenario: Remaining cards correctly updated after drawing
+- *Assuming a new deck starts with 52 cards:*
+- Draw cards from the deck 5 times
+- Draw between 1 and 5 cards from the deck each time.
+- Verify that 52-[total cards drawn] remain in the deck at the end of the test
+
 # Deliverable
 
 - A bundled/archived repository showing your commit history or a link to an accessible private repository with your work in (Github can host private repositories at a cost; there is no charge for doing so with Bitbucket). Git example for sending us a standalone bundle:
@@ -24,11 +32,3 @@ Website: http://deckofcardsapi.com/
   
 - A covering note describing your design decisions.
 - Any instructions required to run your solution and tests in a Windows environment
-
-# Scenario:
-
-Scenario: Remaining cards correctly updated after drawing
-- *Assuming a new deck starts with 52 cards:*
-- Draw cards from the deck 5 times
-- Draw between 1 and 5 cards from the deck each time.
-- Verify that 52-[total cards drawn] remain in the deck at the end of the test
