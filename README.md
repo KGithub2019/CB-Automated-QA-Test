@@ -13,18 +13,22 @@ The task: Create an automated test, based on the scenario described below.
 Website: http://deckofcardsapi.com/ 
 
 # Acceptance Criteria
-1. Fork this repository for your test using the Github website. 
-2. Write a simple automated test framework in the language / IDE of your choice to test the scenario below
-3. Clear reporting of the test results
-4. This README.md expanded to include your design decisions, how to install and then how to run your tests
-5. Include information about your choice of tools that have been used
-6. Once completed create a Pull Requrest and assign the users Greeff and mikeplace
-7. Send us a link to your forked repository
+1. Write a simple automated test framework in the language / IDE of your choice to test the scenario below
+2. Clear reporting of the test results
+
+# Deliverable
+
+- A bundled/archived repository showing your commit history or a link to an accessible private repository with your work in (Github can host private repositories at a cost; there is no charge for doing so with Bitbucket). Git example for sending us a standalone bundle:
+
+   ``` git bundle create <yourname>.bundle --all --branches ```
+  
+- A covering note describing your design decisions.
+- Any instructions required to run your solution and tests in a Windows environment
 
 # Scenario:
 
 Scenario: Remaining cards correctly updated after drawing
-- *Assuming the new deck starts with 52 cards:*
+- *Assuming a new deck starts with 52 cards:*
 - Draw cards from the deck 5 times
 - Draw between 1 and 5 cards from the deck each time.
 - Verify that 52-[total cards drawn] remain in the deck at the end of the test
