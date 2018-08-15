@@ -13,8 +13,9 @@ The task: Create an automated test, based on the scenario described below.
 Website: http://deckofcardsapi.com/ 
 
 # Acceptance Criteria
-1. Write a simple automated test framework in the language / IDE of your choice to test the scenario below
+1. Write an engineered automated test framework in the language / IDE of your choice to test the scenario below
 2. Clear reporting of the test results
+3. Add a readme file with the explanation of why you took that approach and what would you do to make it better (if you had more time/ideas/...)
 
 # Scenario:
 
