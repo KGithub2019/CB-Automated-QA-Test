@@ -27,7 +27,7 @@ Scenario: Remaining cards correctly updated after drawing
 
 # Deliverable
 
-- A bundled/archived repository showing your commit history or a link to an accessible private repository with your work in (Github can host private repositories at a cost; there is no charge for doing so with Bitbucket). Git example for sending us a standalone bundle:
+- A bundled/archived repository showing your commit history or a link to an accessible private repository with your work in (Github can host public repositories for free, as can bitbucket). Git example for sending us a standalone bundle:
 
    ``` git bundle create <yourname>.bundle --all --branches ```
   
